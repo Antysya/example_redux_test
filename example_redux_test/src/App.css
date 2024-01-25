@@ -1,0 +1,44 @@
+#root {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  display: flex;
+  gap: 10px;
+}
+
+.listItem {
+  border-radius: 5px;
+  text-align: start;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.itemContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.isBuyStyle {
+  background-color: transparent;
+  border: none;
+  text-decoration: line-through;
+}
