@@ -20,8 +20,8 @@ const ListProducts = () => {
   return (
     <>
       <UnorderedList styleType="none">
-        {products.slice(currentPage  *  pageSize, currentPage  *  pageSize + pageSize).map((p) => (
-          <ProductItem key={p.id} name={p.text} id={p.id} isBuy={p.isBuy} />
+        {products?.slice(currentPage  *  pageSize, currentPage  *  pageSize + pageSize).map((p) => (
+          <ProductItem key={p.id} name={p.title} id={p.id} isBuy={p.isBuy} />
         ))}
       </UnorderedList>
       <div style={{ display: "flex", justifyContent: "center", marginTop: 20 }}>
