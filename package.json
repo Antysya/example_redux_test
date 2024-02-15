@@ -2,6 +2,7 @@
   "dependencies": {
     "@material-design-icons/svg": "^0.14.13",
     "@mui/icons-material": "^5.15.6",
+    "axios": "^1.6.7",
     "classnames": "^2.5.1"
   }
 }
